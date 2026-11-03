@@ -411,12 +411,13 @@ body.left {
     min-height: 43px;
     margin: 0;
     padding: 8px 12px;
-    background: #f6b818;
+    background: var(--color-secondary);
     font-family: var(--font-sub);
     font-size: 16px;
-    font-weight: inherit;
+    font-weight: bold !important;
     line-height: 1.2;
     text-align: center;
+    color: var(--color-dark) !important;
 }
 
 .player-roster__table {
@@ -473,7 +474,7 @@ body.left {
 }
 
 .player-roster__table a {
-    color: var(--color-primary);
+    color: var(--color-dark) !important;
     text-decoration: none;
 }
 
@@ -505,8 +506,8 @@ body.left {
     padding: 4px 12px;
     border: 0;
     border-radius: 0;
-    background: #000;
-    color: #fff;
+    background: var(--color-dark);
+    color: var(--color-light);
     font-family: var(--font-sub);
     font-size: 16px;
     font-weight: 700;
@@ -519,7 +520,7 @@ body.left {
 }
 
 .player-roster__more:focus-visible {
-    outline: 2px solid #f6b818;
+    outline: 2px solid var(--color-secondary);
     outline-offset: -4px;
 }
 
