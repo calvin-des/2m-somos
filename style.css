@@ -292,9 +292,9 @@ section.footer {
     }
 
     #bottles.body-wrapper {
-        background-size: contain !important;
+        background-size: cover !important;
         background-attachment: fixed;
-        background-image: url('assets/mobile-background-alt.jpg ') !important;
+        background-image: url('assets/mobile-background-alt.jpg') !important;
     }
 }
 
@@ -320,7 +320,7 @@ section.footer {
     #bottles.body-wrapper {
         background-size: cover !important;
         background-attachment: fixed;
-        background-image: url('assets/mobile-background-alt.jpg ') !important;
+        background-image: url('assets/mobile-background-alt.jpg') !important;
     }
 }
 
