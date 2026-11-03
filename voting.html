@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+        <title>2M | somos so moz</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.typekit.net/aqi1dcn.css">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet"/>
+        <script>
+        /* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()
+    </script>
+    </head>
+    <body>
+        <section class="body-wrapper">
+            <div class="container-fluid hero">
+                <img src="assets/logo.png" id="desktop" class="w-100" data-pg-alt-review="image"/>
+            </div>
+            <div class="container-fluid body-content">
+                <div class="mt-3 row">
+                    <div class="col col-lg col-md col-sm">
+</div>
+                    <div class="col-10 col-lg-5 col-md-5 col-sm-10 overlay">
+                        <h1>Vota no teu jogador favorito</h1>
+                        <section class="player-roster" id="playerRoster" aria-labelledby="playerRosterTitle" lang="pt">
+                            <!-- Reusable icons. No separate icon library required. -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute; overflow: hidden;">
+                                <symbol id="roster-person" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="11" fill="#050505"/>
+                                    <circle cx="12" cy="8.5" r="3.5" fill="#f1eeea"/>
+                                    <path d="M5.5 18.1c.5-3.1 2.8-4.6 6.5-4.6s6 1.5 6.5 4.6a9 9 0 0 1-13 0Z" fill="#f1eeea"/>
+                                </symbol>
+                                <symbol id="roster-ballot" viewBox="0 0 28 28">
+                                    <path d="M5 16H2v8h24v-8h-3" fill="none" stroke="#050505" stroke-width="2" stroke-linejoin="round"/>
+                                    <rect x="7" y="6" width="15" height="15" rx="1" fill="#050505"/>
+                                    <path d="m10.5 13.5 2.5 2.5 5-5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </symbol>
+                                <symbol id="roster-chevron" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="11" fill="#fff"/>
+                                    <path d="m7 10 5 5 5-5" fill="none" stroke="#050505" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </symbol>
+                            </svg>
+                            <h2 class="player-roster__title" id="playerRosterTitle">
+                            LISTA DE JOGADORES </h2>
+                            <table class="table mb-0 player-roster__table" aria-labelledby="playerRosterTitle">
+                                <colgroup>
+                                    <col class="player-roster__col-icon">
+                                    <col class="player-roster__col-name">
+                                    <col class="player-roster__col-position">
+                                    <col class="player-roster__col-vote">
+                                </colgroup>
+                                <thead class="visually-hidden">
+                                    <tr>
+                                        <th scope="col">Ícone</th>
+                                        <th scope="col">Jogador</th>
+                                        <th scope="col">Posição</th>
+                                        <th scope="col">Votar</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="playerRosterRows">
+                                    <!-- First five players -->
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">Ernan Siluane</a></td>
+                                        <td>Goalkeeper</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">José Guirrugo</a></td>
+                                        <td>Goalkeeper</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">Kimiss Zavala</a></td>
+                                        <td>Goalkeeper</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">Edmilson Dove</a></td>
+                                        <td>Centre-Back</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">Bruno Langa</a></td>
+                                        <td>Left-back</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <!-- Additional players: revealed by "Ver mais jogadores" -->
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Centre-Back</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Right-back</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Defensive Midfield</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Central Midfield</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Central Midfield</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Attacking Midfield</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Right Winger</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Left Winger</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Centre-Forward</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Centre-Back</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Left-back</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Right-back</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Central Midfield</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Left Winger</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-hidden="true">
+                                            <img src="assets/user-circle-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                        <td><a href="#">john doe</a></td>
+                                        <td>Centre-Forward</td>
+                                        <td aria-hidden="true">
+                                            <img src="assets/vote-solid.svg" data-pg-alt-review="image"/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <button class="player-roster__more" id="playerRosterMore" type="button" aria-controls="playerRosterRows" aria-expanded="false" hidden>
+                                <span>VER MAIS JOGADORES</span>
+                                <img src="assets/circle-arrow-down.svg" alt="" width="22" height="22">
+                            </button>
+                            <p class="visually-hidden" id="playerRosterStatus" role="status"></p>
+                        </section>
+                        <button type="submit" class="btn btn-primary">enviar</button>
+                    </div>
+                    <div class="col col-lg col-md col-sm">
+</div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container-fluid">
+                <img src="assets/mobile-ara-line.svg" alt="ara-line" id="mobile" class="w-100" data-pg-alt-review="image"/><img src="assets/desktop-ara-line.svg" alt="ara-line" id="desktop" class="w-100" data-pg-alt-review="image"/>
+            </div>
+        </section>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="pgia/lib/pgia.js"></script>
+        <!-- roster accordian -->
+        <script>
+        (() => {
+    const roster = document.getElementById("playerRoster");
+    if (!roster) return;
+
+    const tbody = roster.querySelector("#playerRosterRows");
+    const moreButton = roster.querySelector("#playerRosterMore");
+    const buttonLabel = moreButton.querySelector("span");
+    const status = roster.querySelector("#playerRosterStatus");
+
+    const initiallyVisible = 5;
+    const rows = Array.from(tbody.rows);
+    const additionalRows = rows.slice(initiallyVisible);
+
+    function setExpanded(expanded) {
+      additionalRows.forEach((row) => {
+        row.hidden = !expanded;
+      });
+
+      moreButton.setAttribute("aria-expanded", String(expanded));
+
+      buttonLabel.textContent = expanded
+        ? "VER MENOS JOGADORES"
+        : "VER MAIS JOGADORES";
+    }
+
+    // Start with five players visible.
+    setExpanded(false);
+
+    // Only hide the button if there are no additional players.
+    moreButton.hidden = additionalRows.length === 0;
+
+    // Keep the entire player row clickable.
+    tbody.addEventListener("click", (event) => {
+      if (event.target.closest("a")) return;
+
+      const row = event.target.closest("tr");
+
+      if (row && tbody.contains(row)) {
+        row.querySelector("a")?.click();
+      }
+    });
+
+    // Expand or collapse on every click.
+    moreButton.addEventListener("click", () => {
+      const expanded =
+        moreButton.getAttribute("aria-expanded") === "true";
+
+      const nextExpanded = !expanded;
+
+      setExpanded(nextExpanded);
+
+      const visibleCount = nextExpanded
+        ? rows.length
+        : Math.min(initiallyVisible, rows.length);
+
+      status.textContent = `${visibleCount} jogadores apresentados.`;
+    });
+
+    roster.classList.add("is-enhanced");
+  })();
+    </script>
+    </body>
+</html>
