@@ -38,7 +38,7 @@ h1 {
 h2 {
     font-family: var(--font-main);
     color: var(--color-light) !important;
-    font-weight: 500 !important;
+    font-weight: inherit !important;
     font-size: calc(1.325rem + 0.9vw);
     text-transform: uppercase;
     padding-top: 10px;
@@ -47,9 +47,9 @@ h2 {
 }
 
 h3 {
-    font-family: var(--font--sub);
+    font-family: var(--font-sub);
     color: var(--color-light);
-    font-weight: 100;
+    font-weight: inherit;
     font-size: calc(1.3rem + 0.6vw);
     text-align: center;
     padding-top: 10px;
@@ -58,7 +58,7 @@ h3 {
 h4 {
     font-family: var(--font-main);
     color: var(--color-primary);
-    font-weight: 200;
+    font-weight: inherit;
     font-size: calc(1.275rem + 0.3vw);
     padding-top: 10px;
     text-align: center;
@@ -73,7 +73,7 @@ p {
     text-align: center;
     margin: 0;
     text-transform: none;
-    font-weight: 400;
+    font-weight: inherit;
 }
 
 /* Buttons */
@@ -169,7 +169,7 @@ input::-webkit-calendar-picker-indicator {
     color: var(--color-primary);
     font-size: 1rem;
     line-height: 2rem;
-    font-weight: bold;
+    font-weight: inherit;
     text-align: center;
     width: 100%;
     border: 2px solid var(--color-primary);
@@ -318,7 +318,8 @@ a:hover,
 a:focus,
 a:visited,
 a:active {
-    color: var(--color-primary) !important;
+    color: var(--color-light) !important;
+    text-decoration: underline;
 }
 
 /* general layout */
@@ -394,7 +395,7 @@ body.left {
     background-position: center;
     background-size: cover;
     color: #050505;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: var(--font-sub);
     margin-top: 20px;
 }
 
@@ -411,9 +412,9 @@ body.left {
     margin: 0;
     padding: 8px 12px;
     background: #f6b818;
-    font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+    font-family: var(--font-sub);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: inherit;
     line-height: 1.2;
     text-align: center;
 }
@@ -472,7 +473,7 @@ body.left {
 }
 
 .player-roster__table a {
-    color: inherit;
+    color: var(--color-primary);
     text-decoration: none;
 }
 
@@ -506,7 +507,7 @@ body.left {
     border-radius: 0;
     background: #000;
     color: #fff;
-    font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+    font-family: var(--font-sub);
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
