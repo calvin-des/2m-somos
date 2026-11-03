@@ -17,7 +17,7 @@
     </script>
     </head>
     <body>
-        <section class="body-wrapper">
+        <section class="body-wrapper" id="bottles">
             <div class="container-fluid hero">
                 <img src="assets/logo.png" id="desktop" class="w-100" data-pg-alt-review="image"/>
             </div>
@@ -31,8 +31,17 @@
                         PARA PARTICIPAR</h3>
                         <form role="form">
                             <div class="mb-1">
-                                <a href="unique-code.html"><label for="firstAndLastName">Nome e sobrenome*</label></a>
+                                <label for="firstAndLastName">Nome e sobrenome*</label></a>
                                 <input type="text" class="form-control" id="firstAndLastName" name="firstAndLastName" aria-describedby="firstAndLastName" placeholder="nome e sobrenome*" required="true"/>
+                            </div>
+                            <div class="mb-1">
+                                <label for="genderSelect">Gênero*</label>
+                                <select id="genderSelect" name="genderSelect" class="form-control" required="true">
+                                    <option value="">selecione</option>
+                                    <option value="Option1">Option1</option>
+                                    <option value="Option2">Option2</option>
+                                    <option value="Option3">Option3</option>
+                                </select>
                             </div>
                             <div class="mb-1">
                                 <label for="cellNumber">Número de celular*</label>

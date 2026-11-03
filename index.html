@@ -17,8 +17,8 @@
         /* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()
     </script>
     </head>
-    <body class="left">
-        <section class="body-wrapper">
+    <body>
+        <section class="body-wrapper" id="left">
             <div class="container-fluid hero">
                 <img src="assets/logo.png" id="desktop" class="w-100" data-pg-alt-review="image"/>
             </div>
@@ -32,7 +32,7 @@
                                 <h1>TENS 18 ANOS OU MAIS?</h1>
                             </div>
                         </div>
-                        <div class="mt-4  row">
+                        <div class="mt-3  row">
                             <div class="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <form name="form" method="post" onsubmit="return validateAge()">
                                     <div class="row">

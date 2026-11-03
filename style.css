@@ -25,7 +25,7 @@
 h1 {
     font-family: var(--font-main);
     color: var(--color-light) !important;
-    font-size: calc(2.5rem + 2.5vw);
+    font-size: calc(1.9rem + 2vw);
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -81,7 +81,7 @@ p {
     color: var(--color-light);
     background-color: var(--color-primary);
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin-top: 20px;
     font-family: var(--font-main);
     text-transform: uppercase;
@@ -102,6 +102,7 @@ p {
     border-style: none !important;
     filter: brightness(110%);
     transform: scale(1.02);
+    text-decoration: none !important;
 }
 
 /* Form related */
@@ -116,7 +117,7 @@ p {
 }
 
 option {
-    background-color: var(--color-primary);
+    background-color: var(--color-dark);
     color: var(--color-light);
 }
 
@@ -281,6 +282,20 @@ section.footer {
     .player-roster__table > tbody > tr > td {
         padding-inline: 3px;
     }
+
+    #left.body-wrapper {
+        background-position: 25% center !important;
+    }
+
+    #right.body-wrapper {
+        background-position: 75% center !important;
+    }
+
+    #bottles.body-wrapper {
+        background-size: contain !important;
+        background-attachment: fixed;
+        background-image: url('assets/mobile-background-alt.jpg ') !important;
+    }
 }
 
 /* Mobile rules */
@@ -292,6 +307,20 @@ section.footer {
     .footer #desktop {
         visibility: hidden;
         display: none;
+    }
+
+    #left.body-wrapper {
+        background-position: 25% center !important;
+    }
+
+    #right.body-wrapper {
+        background-position: 75% center !important;
+    }
+
+    #bottles.body-wrapper {
+        background-size: cover !important;
+        background-attachment: fixed;
+        background-image: url('assets/mobile-background-alt.jpg ') !important;
     }
 }
 
@@ -376,6 +405,17 @@ body.left {
     min-height: 0;
     display: flow-root;
     background-image: url('assets/background-img.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bottles.body-wrapper {
+    flex: 1 0 auto;
+    min-height: 0;
+    display: flow-root;
+    background-image: url('assets/background-img-alt.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -414,7 +454,7 @@ body.left {
     background: var(--color-secondary);
     font-family: var(--font-sub);
     font-size: 16px;
-    font-weight: bold !important;
+    font-weight: 800 !important;
     line-height: 1.2;
     text-align: center;
     color: var(--color-dark) !important;
@@ -503,14 +543,14 @@ body.left {
     gap: 14px;
     width: 100%;
     min-height: 31px;
-    padding: 4px 12px;
+    padding: 8px 12px;
     border: 0;
     border-radius: 0;
     background: var(--color-dark);
     color: var(--color-light);
     font-family: var(--font-sub);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
     cursor: pointer;
 }
